@@ -45,6 +45,8 @@ PS E:\TheGymTraining\Git exercises> git commit -m "bundle 1 exercises 1"
 PS E:\TheGymTraining\Git exercises> git push origin dev
 
 
+// Bundle 1 exercises 2.
+
 PS E:\TheGymTraining\Git exercises> git stash
 Saved working directory and index state WIP on dev: 8038649 readme uploaded to dev
 PS E:\TheGymTraining\Git exercises> 
