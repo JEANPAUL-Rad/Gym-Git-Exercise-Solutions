@@ -40,3 +40,6 @@ PS E:\TheGymTraining\Git exercises> git branch -D test
 Deleted branch test (was f3ec461).
 PS E:\TheGymTraining\Git exercises> ^C
 PS E:\TheGymTraining\Git exercises> 
+PS E:\TheGymTraining\Git exercises> git add .
+PS E:\TheGymTraining\Git exercises> git commit -m "bundle 1 exercises 1"
+PS E:\TheGymTraining\Git exercises> git push origin dev
