@@ -56,3 +56,17 @@ PS E:\TheGymTraining\Git exercises> git stash pop
 README.md: needs merge
 error: could not write index
 The stash entry is kept in case you need it again.
+S E:\TheGymTraining\Git exercises> git stash pop
+CONFLICT (rename/delete): index.html renamed to home.html in Updated upstream, but deleted in Stashed changes.
+CONFLICT (modify/delete): home.html deleted in Stashed changes and modified in Updated upstream.  Version Updated upstream of home.html left in tree.
+On branch dev
+Unmerged paths:
+  (use "git restore --staged <file>..." to unstage)
+  (use "git add/rm <file>..." as appropriate to mark resolution)
+        deleted by them: home.html
+
+
+PS E:\TheGymTraining\Git exercises> git reset 
+Unstaged changes after reset:
+M       README.md
+PS E:\TheGymTraining\Git exercises> 
