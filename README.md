@@ -50,3 +50,9 @@ PS E:\TheGymTraining\Git exercises> git push origin dev
 PS E:\TheGymTraining\Git exercises> git stash
 Saved working directory and index state WIP on dev: 8038649 readme uploaded to dev
 PS E:\TheGymTraining\Git exercises> 
+
+The stash entry is kept in case you need it again.
+PS E:\TheGymTraining\Git exercises> git stash pop
+README.md: needs merge
+error: could not write index
+The stash entry is kept in case you need it again.
