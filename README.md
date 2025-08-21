@@ -107,3 +107,16 @@ remote:
 To https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions
  * [new branch]      ft/bundle-2 -> ft/bundle-2
 PS E:\TheGymTraining\Git exercises> 
+
+
+// Bundle 1 exercises 2
+
+
+PS E:\TheGymTraining\Git exercises> git branch ft/service-redesign
+PS E:\TheGymTraining\Git exercises> git switch ft/service-redesign
+Switched to branch 'ft/service-redesign'
+PS E:\TheGymTraining\Git exercises> git add .
+PS E:\TheGymTraining\Git exercises> git commit -m "services readisigning"
+[ft/service-redesign bb2fbef] services readisigning
+ 1 file changed, 7 insertions(+)
+PS E:\TheGymTraining\Git exercises> git push origin ft/service-redesign
