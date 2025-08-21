@@ -319,61 +319,16 @@ index 3e151de..81a948d 100644
 
 
 
-// Bundle 3 exercises 1
-
-
-
-PS E:\TheGymTraining\Git exercises> git checkout -b ft/team-page
-Switched to a new branch 'ft/team-page'
-PS E:\TheGymTraining\Git exercises> git add . 
-PS E:\TheGymTraining\Git exercises> git commit -m "team w html commit"
-[ft/team-page f455c49] team w html commit
- 2 files changed, 12 insertions(+)
-
-
-PS E:\TheGymTraining\Git exercises> git log --oneline
-2a99bff (HEAD -> ft/team-page, origin/ft/team-page) team w html committ
-f455c49 team w html commit
-ddd26b1 (origin/main, main, ft/contact-page) Update README.md
-dadc857 Update README.md
-bd39638 Delete wp
-35700c6 (origin/ft/service-redesign, ft/service-redesign) Merge branch 
-'main' into ft/service-redesign
-e941d39 updated redme here
-d15c9b0 change list to paragraph
-79b8f31 services readisign with read me
-bb2fbef services readisigning
-801bf2a Merge pull request #1 from JEANPAUL-Rad/ft/bundle-2
-f992d4d (origin/ft/bundle-2, ft/bundle-2) service include read me      
-d785cbf service test
-561ed68 (origin/dev, dev) uploading team
-:
-
-
-PS E:\TheGymTraining\Git exercises> git cherry-pick cc8419ccae4c5f474e7db57c4544e78d46042ded
+a303bdc Initial commit
+PS E:\TheGymTraining\Git exercises> git revert 44f0e99
 Auto-merging README.md
 CONFLICT (content): Merge conflict in README.md
-error: could not apply cc8419c... using git log to see changes
+error: could not revert 44f0e99... using git log to see changes        
 hint: After resolving the conflicts, mark them with
 hint: "git add/rm <pathspec>", then run
-hint: "git cherry-pick --continue".
-hint: You can instead skip this commit with "git cherry-pick --skip".  
-hint: To abort and get back to the state before "git cherry-pick",     
-hint: run "git cherry-pick --abort".
+hint: "git revert --continue".
+hint: You can instead skip this commit with "git revert --skip".       
+hint: To abort and get back to the state before "git revert",
+hint: run "git revert --abort".
 hint: Disable this message with "git config advice.mergeConflict false"
-PS E:\TheGymTraining\Git exercises> git cherry-pick --continue
-[ft/contact-page 44f0e99] using git log to see changes
- Date: Thu Aug 21 18:06:45 2025 +0200
- 1 file changed, 32 insertions(+)
 PS E:\TheGymTraining\Git exercises> 
-
-
-
-PS E:\TheGymTraining\Git exercises> git checkout -b ft/faq-page
-Switched to a new branch 'ft/faq-page'
-PS E:\TheGymTraining\Git exercises> git add .
-PS E:\TheGymTraining\Git exercises> git commit -m "adding heading 2"
-[ft/faq-page 1976167] adding heading 2
- 1 file changed, 1 insertion(+)
-PS E:\TheGymTraining\Git exercises> git push origin ft/faq-page
-Enumerating objects: 5, done.
