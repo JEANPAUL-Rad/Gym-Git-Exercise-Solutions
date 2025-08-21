@@ -172,7 +172,7 @@ index 81a948d..3e151de 100644
 -      ensuring that everyone can find the right support for their journey.
 -    </p>
 -    <h3>this the different one i used for helping people</h3>
-+    <h1>mining technology and codebase</h1>
++    <h1> codebase</h1>
 +    <div>
 +      <p>
 +        We leverage cutting-edge technology and a robust codebase to deliver
