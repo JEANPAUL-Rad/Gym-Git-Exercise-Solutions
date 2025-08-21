@@ -348,3 +348,21 @@ f992d4d (origin/ft/bundle-2, ft/bundle-2) service include read me
 d785cbf service test
 561ed68 (origin/dev, dev) uploading team
 :
+
+
+PS E:\TheGymTraining\Git exercises> git cherry-pick cc8419ccae4c5f474e7db57c4544e78d46042ded
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+error: could not apply cc8419c... using git log to see changes
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git cherry-pick --continue".
+hint: You can instead skip this commit with "git cherry-pick --skip".  
+hint: To abort and get back to the state before "git cherry-pick",     
+hint: run "git cherry-pick --abort".
+hint: Disable this message with "git config advice.mergeConflict false"
+PS E:\TheGymTraining\Git exercises> git cherry-pick --continue
+[ft/contact-page 44f0e99] using git log to see changes
+ Date: Thu Aug 21 18:06:45 2025 +0200
+ 1 file changed, 32 insertions(+)
+PS E:\TheGymTraining\Git exercises> 
