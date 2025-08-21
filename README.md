@@ -319,6 +319,7 @@ index 3e151de..81a948d 100644
 
 
 
+ft/team-page
 // Bundle 3 exercises 1
 
 
@@ -348,3 +349,36 @@ f992d4d (origin/ft/bundle-2, ft/bundle-2) service include read me
 d785cbf service test
 561ed68 (origin/dev, dev) uploading team
 :
+
+
+a303bdc Initial commit
+PS E:\TheGymTraining\Git exercises> git revert 44f0e99
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+error: could not revert 44f0e99... using git log to see changes        
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git revert --continue".
+hint: You can instead skip this commit with "git revert --skip".       
+hint: To abort and get back to the state before "git revert",
+hint: run "git revert --abort".
+hint: Disable this message with "git config advice.mergeConflict false"
+PS E:\TheGymTraining\Git exercises> 
+
+PS E:\TheGymTraining\Git exercises> git checkout -b ft/home-page-redesign
+ ft/home-page-redesign
+Switched to a new branch 'ft/home-page-redesign'
+
+Switched to a new branch 'ft/home-page-redesign'
+warning: cancelling a revert in progress
+PS E:\TheGymTraining\Git exercises> git checkout -b ft/home-page-redesign
+fatal: a branch named 'ft/home-page-redesign' already exists
+PS E:\TheGymTraining\Git exercises> git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS E:\TheGymTraining\Git exercises> git add .
+PS E:\TheGymTraining\Git exercises> git commit -m "adding 2 new paragraph"
+[main 966d8e5] adding 2 new paragraph
+ 1 file changed, 3 insertions(+)
+PS E:\TheGymTraining\Git exercises> git push main
+
