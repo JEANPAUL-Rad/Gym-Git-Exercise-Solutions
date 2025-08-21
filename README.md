@@ -366,3 +366,14 @@ PS E:\TheGymTraining\Git exercises> git cherry-pick --continue
  Date: Thu Aug 21 18:06:45 2025 +0200
  1 file changed, 32 insertions(+)
 PS E:\TheGymTraining\Git exercises> 
+
+
+
+PS E:\TheGymTraining\Git exercises> git checkout -b ft/faq-page
+Switched to a new branch 'ft/faq-page'
+PS E:\TheGymTraining\Git exercises> git add .
+PS E:\TheGymTraining\Git exercises> git commit -m "adding heading 2"
+[ft/faq-page 1976167] adding heading 2
+ 1 file changed, 1 insertion(+)
+PS E:\TheGymTraining\Git exercises> git push origin ft/faq-page
+Enumerating objects: 5, done.
