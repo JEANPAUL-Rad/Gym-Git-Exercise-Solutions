@@ -70,3 +70,40 @@ PS E:\TheGymTraining\Git exercises> git reset
 Unstaged changes after reset:
 M       README.md
 PS E:\TheGymTraining\Git exercises> 
+
+
+// the bundel 2 exercises 1
+
+
+  master
+PS E:\TheGymTraining\Git exercises> git checkout -b ft/bundle-2
+Switched to a new branch 'ft/bundle-2'
+PS E:\TheGymTraining\Git exercises> git add .
+PS E:\TheGymTraining\Git exercises> git commit -m "service test"
+[ft/bundle-2 d785cbf] service test
+ 1 file changed, 17 insertions(+)
+ create mode 100644 services.html
+PS E:\TheGymTraining\Git exercises> git push 
+fatal: The current branch ft/bundle-2 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin ft/bundle-2
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.       
+
+PS E:\TheGymTraining\Git exercises> git push origin ft/bundle-2
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 507 bytes | 507.00 KiB/s, done.     
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)    
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'ft/bundle-2' on GitHub by visiting:
+remote:      https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions/pull/new/ft/bundle-2
+remote:
+To https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions
+ * [new branch]      ft/bundle-2 -> ft/bundle-2
+PS E:\TheGymTraining\Git exercises> 
