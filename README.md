@@ -322,3 +322,10 @@ index 3e151de..81a948d 100644
 // Bundle 3 exercises 1
 
 
+
+PS E:\TheGymTraining\Git exercises> git checkout -b ft/team-page
+Switched to a new branch 'ft/team-page'
+PS E:\TheGymTraining\Git exercises> git add . 
+PS E:\TheGymTraining\Git exercises> git commit -m "team w html commit"
+[ft/team-page f455c49] team w html commit
+ 2 files changed, 12 insertions(+)
