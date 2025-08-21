@@ -120,3 +120,199 @@ PS E:\TheGymTraining\Git exercises> git commit -m "services readisigning"
 [ft/service-redesign bb2fbef] services readisigning
  1 file changed, 7 insertions(+)
 PS E:\TheGymTraining\Git exercises> git push origin ft/service-redesign
+
+
+PS E:\TheGymTraining\Git exercises> git diff main..ft/service-redesign
+diff --git a/README.md b/README.md
+index 1c2c9ee..2d6f833 100644
+--- a/README.md
++++ b/README.md
+@@ -106,4 +106,17 @@ remote:      https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions/pull/new
+ remote:
+ To https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions
+  * [new branch]      ft/bundle-2 -> ft/bundle-2
+-PS E:\TheGymTraining\Git exercises>
+\ No newline at end of file
++PS E:\TheGymTraining\Git exercises> 
++
++
++// Bundle 1 exercises 2
++
++
++PS E:\TheGymTraining\Git exercises> git branch ft/service-redesign
++PS E:\TheGymTraining\Git exercises> git switch ft/service-redesign
++Switched to branch 'ft/service-redesign'
++PS E:\TheGymTraining\Git exercises> git add .
++PS E:\TheGymTraining\Git exercises> git commit -m "services readisigning"
++[ft/service-redesign bb2fbef] services readisigning
++ 1 file changed, 7 insertions(+)
++PS E:\TheGymTraining\Git exercises> git push origin ft/service-redesign
+\ No newline at end of file
+diff --git a/services.html b/services.html
+index 81a948d..3e151de 100644
+--- a/services.html
++++ b/services.html
+@@ -8,19 +8,17 @@
+   <body>
+     <h2>Our Services</h2>
+     <ul>
+-      <p>We offer a variety of services to meet your fitness needs:</p>
++      <li>Personal Training</li>
+       <li>Group Classes</li>
+-      <div id="nk">how do you feel</div>
++      <li>Nutrition Coaching</li>
+       <li>Online Coaching</li>
+-      <li>Wellness Workshops</li>
+-      <li>
+-        <noframes><p>Mindfulness and Stress Management</p></noframes>
+-      </li>
+     </ul>
+-    <p>
+-      Our services are designed to cater to a wide range of fitness needs,
+-      ensuring that everyone can find the right support for their journey.
+-    </p>
+-    <h3>this the different one i used for helping people</h3>
++    <h1>mining technology and codebase</h1>
++    <div>
++      <p>
++        We leverage cutting-edge technology and a robust codebase to deliver
++        exceptional fitness solutions.
++      </p>
++    </div>
+   </body>
+ </html>
+(END)
+
+ E:\TheGymTraining\Git exercises> git diff main..ft/service-redesign
+diff --git a/README.md b/README.md
+index 1c2c9ee..2d6f833 100644
+--- a/README.md
++++ b/README.md
+@@ -106,4 +106,17 @@ remote:      https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions/pull/new
+ remote:
+ To https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions
+  * [new branch]      ft/bundle-2 -> ft/bundle-2
+-PS E:\TheGymTraining\Git exercises>
+\ No newline at end of file
++PS E:\TheGymTraining\Git exercises> 
++
++
++// Bundle 1 exercises 2
++
++
++PS E:\TheGymTraining\Git exercises> git branch ft/service-redesign
++PS E:\TheGymTraining\Git exercises> git switch ft/service-redesign
++Switched to branch 'ft/service-redesign'
++PS E:\TheGymTraining\Git exercises> git add .
++PS E:\TheGymTraining\Git exercises> git commit -m "services readisigning"
++[ft/service-redesign bb2fbef] services readisigning
++ 1 file changed, 7 insertions(+)
++PS E:\TheGymTraining\Git exercises> git push origin ft/service-redesign
+\ No newline at end of file
+diff --git a/services.html b/services.html
+index 81a948d..3e151de 100644
+--- a/services.html
++++ b/services.html
+@@ -8,19 +8,17 @@
+   <body>
+     <h2>Our Services</h2>
+     <ul>
+-      <p>We offer a variety of services to meet your fitness needs:</p>
++      <li>Personal Training</li>
+       <li>Group Classes</li>
+-      <div id="nk">how do you feel</div>
++      <li>Nutrition Coaching</li>
+       <li>Online Coaching</li>
+-      <li>Wellness Workshops</li>
+-      <li>
+-        <noframes><p>Mindfulness and Stress Management</p></noframes>
+-      </li>
+     </ul>
+-    <p>
+-      Our services are designed to cater to a wide range of fitness needs,
+-      ensuring that everyone can find the right support for their journey.
+-    </p>
+-    <h3>this the different one i used for helping people</h3>   
++    <h1>mining technology and codebase</h1>
++    <div>
++      <p>
++        We leverage cutting-edge technology and a robust codebase to deliver
++        exceptional fitness solutions.
++      </p>
++    </div>
+   </body>
+ </html>
+(END)
+-      </li>
+     </ul>
+-    <p>
+-      Our services are designed to cater to a wide range of fitness needs,
+-      ensuring that everyone can find the right support for their journey.
+-    </p>
+-    <h3>this the different one i used for helping people</h3>   
++    <h1>mining technology and codebase</h1>
++    <div>
++      <p>
++        We leverage cutting-edge technology and a robust codebase to deliver
++        exceptional fitness solutions.
++      </p>
+PS E:\TheGymTraining\Git exercises> git diff ft/service-redesign..main
+diff --git a/README.md b/README.md
+index 2d6f833..1c2c9ee 100644
+--- a/README.md
++++ b/README.md
+@@ -106,17 +106,4 @@ remote:      https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions/pull/new
+ remote:
+ To https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions   
+  * [new branch]      ft/bundle-2 -> ft/bundle-2
+-PS E:\TheGymTraining\Git exercises>
+-
+-
+-// Bundle 1 exercises 2
+-
+-
+-PS E:\TheGymTraining\Git exercises> git branch ft/service-redesign
+-PS E:\TheGymTraining\Git exercises> git switch ft/service-redesign
+-Switched to branch 'ft/service-redesign'
+-PS E:\TheGymTraining\Git exercises> git add .
+-PS E:\TheGymTraining\Git exercises> git commit -m "services readisigning"
+-[ft/service-redesign bb2fbef] services readisigning
+- 1 file changed, 7 insertions(+)
+-PS E:\TheGymTraining\Git exercises> git push origin ft/service-redesign
+\ No newline at end of file
++PS E:\TheGymTraining\Git exercises> 
+\ No newline at end of file
+diff --git a/services.html b/services.html
+index 3e151de..81a948d 100644
+--- a/services.html
++++ b/services.html
+@@ -8,17 +8,19 @@
+   <body>
+     <h2>Our Services</h2>
+     <ul>
+-      <li>Personal Training</li>
++      <p>We offer a variety of services to meet your fitness needs:</p>
+       <li>Group Classes</li>
+-      <li>Nutrition Coaching</li>
++      <div id="nk">how do you feel</div>
+       <li>Online Coaching</li>
++      <li>Wellness Workshops</li>
++      <li>
++        <noframes><p>Mindfulness and Stress Management</p></noframes>
++      </li>
+     </ul>
+-    <h1>mining technology and codebase</h1>
+-    <div>
+-      <p>
+-        We leverage cutting-edge technology and a robust codebase to deliver
+-        exceptional fitness solutions.
+-      </p>
+-    </div>
++    <p>
++      Our services are designed to cater to a wide range of fitness needs,
++      ensuring that everyone can find the right support for their journey.
++    </p>
++    <h3>this the different one i used for helping people</h3>   
+   </body>
+ </html>
+(END)
