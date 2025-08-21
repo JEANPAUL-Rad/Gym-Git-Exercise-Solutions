@@ -335,6 +335,9 @@ hint: Disable this message with "git config advice.mergeConflict false"
 PS E:\TheGymTraining\Git exercises> 
 
 PS E:\TheGymTraining\Git exercises> git checkout -b ft/home-page-redesign
+ ft/home-page-redesign
+Switched to a new branch 'ft/home-page-redesign'
+
 Switched to a new branch 'ft/home-page-redesign'
 warning: cancelling a revert in progress
 PS E:\TheGymTraining\Git exercises> git checkout -b ft/home-page-redesign
