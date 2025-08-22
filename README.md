@@ -2,8 +2,9 @@
 This repo it contain all the Git related exercises in the  Gym training
 
 
-// Bundle 1 exercises 1.
+## Bundle 1 exercises 1.
 
+```bash
 
 PS E:\TheGymTraining\Git exercises> git branch -m main master
 PS E:\TheGymTraining\Git exercises> git branch
@@ -44,8 +45,11 @@ PS E:\TheGymTraining\Git exercises> git add .
 PS E:\TheGymTraining\Git exercises> git commit -m "bundle 1 exercises 1"
 PS E:\TheGymTraining\Git exercises> git push origin dev
 
+```
 
-// Bundle 1 exercises 2.
+## Bundle 1 exercises 2.
+
+```bash
 
 PS E:\TheGymTraining\Git exercises> git stash
 Saved working directory and index state WIP on dev: 8038649 readme uploaded to dev
@@ -71,10 +75,11 @@ Unstaged changes after reset:
 M       README.md
 PS E:\TheGymTraining\Git exercises> 
 
+```
 
-// the bundel 2 exercises 1
+## the bundle 2 exercises 1
 
-
+```bash
   master
 PS E:\TheGymTraining\Git exercises> git checkout -b ft/bundle-2
 Switched to a new branch 'ft/bundle-2'
@@ -108,9 +113,11 @@ To https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions
  * [new branch]      ft/bundle-2 -> ft/bundle-2
 PS E:\TheGymTraining\Git exercises> 
 
+```
 
-// Bundle 1 exercises 2
+## Bundle 1 exercises 2
 
+```bash
 
 PS E:\TheGymTraining\Git exercises> git branch ft/service-redesign
 PS E:\TheGymTraining\Git exercises> git switch ft/service-redesign
@@ -134,11 +141,13 @@ index 1c2c9ee..2d6f833 100644
 -PS E:\TheGymTraining\Git exercises>
 \ No newline at end of file
 +PS E:\TheGymTraining\Git exercises> 
-+
-+
-+// Bundle 1 exercises 2
-+
-+
+```
+
+
+## Bundle 1 exercises 2
+
+```bash
+
 +PS E:\TheGymTraining\Git exercises> git branch ft/service-redesign
 +PS E:\TheGymTraining\Git exercises> git switch ft/service-redesign
 +Switched to branch 'ft/service-redesign'
@@ -195,10 +204,12 @@ index 1c2c9ee..2d6f833 100644
 -PS E:\TheGymTraining\Git exercises>
 \ No newline at end of file
 +PS E:\TheGymTraining\Git exercises> 
-+
-+
-+// Bundle 1 exercises 2
-+
+
+```
+
+## Bundle 1 exercises 2
+
+```bash
 +
 +PS E:\TheGymTraining\Git exercises> git branch ft/service-redesign
 +PS E:\TheGymTraining\Git exercises> git switch ft/service-redesign
@@ -266,11 +277,12 @@ index 2d6f833..1c2c9ee 100644
  To https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions   
   * [new branch]      ft/bundle-2 -> ft/bundle-2
 -PS E:\TheGymTraining\Git exercises>
--
--
--// Bundle 1 exercises 2
--
--
+```
+
+## Bundle 1 exercises 2
+
+
+```bash
 -PS E:\TheGymTraining\Git exercises> git branch ft/service-redesign
 -PS E:\TheGymTraining\Git exercises> git switch ft/service-redesign
 -Switched to branch 'ft/service-redesign'
@@ -316,13 +328,14 @@ index 3e151de..81a948d 100644
    </body>
  </html>
 (END)
+```
 
 
 
-ft/team-page
-// Bundle 3 exercises 1
 
+## Bundle 3 exercises 1
 
+```bash
 
 PS E:\TheGymTraining\Git exercises> git checkout -b ft/team-page
 Switched to a new branch 'ft/team-page'
@@ -381,11 +394,12 @@ PS E:\TheGymTraining\Git exercises> git commit -m "adding 2 new paragraph"
 [main 966d8e5] adding 2 new paragraph
  1 file changed, 3 insertions(+)
 PS E:\TheGymTraining\Git exercises> git push main
+```
 
 
+## bundle 4 exercise 1
 
-// bundle 4 exercise 1
-
+```bash
 
 PS E:\TheGymTraining\Git exercises> git add .
 PS E:\TheGymTraining\Git exercises> git commit -m "feat:pushing in changes in 2 different repository "
@@ -424,11 +438,11 @@ To https://github.com/JEANPAUL-Rad/git-copy.git
    5b8436b..1411a3d  main -> main
 PS E:\TheGymTraining\Git exercises> 
 
+```
 
+## bundle 4 exercise 2
 
-// bundle 4 exercise 2
-
-
+```bash
 PS E:\TheGymTraining\Git exercises> git checkout -b ft/footer
 Switched to a new branch 'ft/footer'
 PS E:\TheGymTraining\Git exercises> git add .
@@ -471,3 +485,5 @@ remote:
 To https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions
  * [new branch]      ft/squashing -> ft/squashing
 PS E:\TheGymTraining\Git exercises> 
+
+```
