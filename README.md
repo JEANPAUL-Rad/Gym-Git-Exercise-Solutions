@@ -331,3 +331,20 @@ PS E:\TheGymTraining\Git exercises> git commit -m "adding 2 new paragraph"
 [main 966d8e5] adding 2 new paragraph
  1 file changed, 3 insertions(+)
 PS E:\TheGymTraining\Git exercises> git push main
+
+
+
+// bundle 4 exercise 1
+
+
+PS E:\TheGymTraining\Git exercises> git add .
+PS E:\TheGymTraining\Git exercises> git commit -m "feat:pushing in changes in 2 different repository "
+[main e647311] feat:pushing in changes in 2 different repository
+ 1 file changed, 4 insertions(+)
+
+PS E:\TheGymTraining\Git exercises> git remote -v
+git-copy        https://github.com/JEANPAUL-Rad/git-copy.git (fetch)
+git-copy        https://github.com/JEANPAUL-Rad/git-copy.git (push)
+origin  https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions (fetch)
+origin  https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions (push)
+PS E:\TheGymTraining\Git exercises>
