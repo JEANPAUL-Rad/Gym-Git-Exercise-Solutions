@@ -423,3 +423,15 @@ remote: Resolving deltas: 100% (25/25), completed with 2 local objects.
 To https://github.com/JEANPAUL-Rad/git-copy.git
    5b8436b..1411a3d  main -> main
 PS E:\TheGymTraining\Git exercises> 
+
+
+
+// bundle 4 exercise 2
+
+
+PS E:\TheGymTraining\Git exercises> git checkout -b ft/footer
+Switched to a new branch 'ft/footer'
+PS E:\TheGymTraining\Git exercises> git add .
+PS E:\TheGymTraining\Git exercises> git commit -m "adding new paregraph in faq"
+[ft/footer 362e7a9] adding new paregraph in faq
+ 1 file changed, 1 insertion(+)
