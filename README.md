@@ -448,6 +448,7 @@ Switched to a new branch 'ft/footer'
 PS E:\TheGymTraining\Git exercises> git add .
 PS E:\TheGymTraining\Git exercises> git commit -m "adding new paregraph in faq"
 [ft/footer 362e7a9] adding new paregraph in faq
+ ft/squashing
  1 file changed, 1 insertion(+)
 
 
@@ -485,5 +486,9 @@ remote:
 To https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions
  * [new branch]      ft/squashing -> ft/squashing
 PS E:\TheGymTraining\Git exercises> 
+
+ 1 file changed, 1 insertion(+)
+
+
 
 ```
