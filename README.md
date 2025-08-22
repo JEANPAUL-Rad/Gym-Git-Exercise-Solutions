@@ -399,3 +399,27 @@ origin  https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions (fetch)
 origin  https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions (push)
 PS E:\TheGymTraining\Git exercises>
 
+PS E:\TheGymTraining\Git exercises> git add .
+PS E:\TheGymTraining\Git exercises> git commit -m "push again in 2 repo"
+[main 1411a3d] push again in 2 repo
+ 1 file changed, 1 insertion(+)
+PS E:\TheGymTraining\Git exercises> git push origin main ; git push git-copy main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 338 bytes | 338.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects. 
+To https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions
+   a274eab..1411a3d  main -> main
+Enumerating objects: 60, done.
+Counting objects: 100% (58/58), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (48/48), done.
+Writing objects: 100% (48/48), 10.79 KiB | 613.00 KiB/s, done.
+Total 48 (delta 25), reused 0 (delta 0), pack-reused 0 (from 0)       
+remote: Resolving deltas: 100% (25/25), completed with 2 local objects.
+To https://github.com/JEANPAUL-Rad/git-copy.git
+   5b8436b..1411a3d  main -> main
+PS E:\TheGymTraining\Git exercises> 
