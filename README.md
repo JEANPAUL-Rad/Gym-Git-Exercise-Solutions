@@ -435,3 +435,39 @@ PS E:\TheGymTraining\Git exercises> git add .
 PS E:\TheGymTraining\Git exercises> git commit -m "adding new paregraph in faq"
 [ft/footer 362e7a9] adding new paregraph in faq
  1 file changed, 1 insertion(+)
+
+
+ PS E:\TheGymTraining\Git exercises> git checkout -b ft/squashing
+Switched to a new branch 'ft/squashing'
+PS E:\TheGymTraining\Git exercises> git merge --squash ft/footer
+Updating db2ca66..4edebd2
+Fast-forward
+Squash commit -- not updating HEAD
+ README.md | 14 +++++++++++++-
+ faq.html  |  1 +
+ 2 files changed, 14 insertions(+), 1 deletion(-)
+PS E:\TheGymTraining\Git exercises> git add .
+PS E:\TheGymTraining\Git exercises> git commit -m "footer changes squashing"
+[ft/squashing b00dff7] footer changes squashing
+ 2 files changed, 14 insertions(+), 1 deletion(-)
+PS E:\TheGymTraining\Git exercises> git push ft/squashing
+fatal: 'ft/squashing' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+PS E:\TheGymTraining\Git exercises> git push origin ft/squashing
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 523 bytes | 523.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects. 
+remote:
+remote: Create a pull request for 'ft/squashing' on GitHub by visiting:
+remote:      https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions/pull/new/ft/squashing
+remote:
+To https://github.com/JEANPAUL-Rad/Gym-Git-Exercise-Solutions
+ * [new branch]      ft/squashing -> ft/squashing
+PS E:\TheGymTraining\Git exercises> 
